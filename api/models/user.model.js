@@ -15,10 +15,10 @@ const userSchema = new mongoose.Schema({
         type:String,
         required : true,
     } ,
-    avatar :{
-        type:String,
-        default: "https://i.ibb.co/1qR3YGM/default-avatar.png" 
-    }
+    avatar: {
+  type: String,
+  default: "https://cdn-icons-png.flaticon.com/512/149/149071.png"
+}
 },{ timestamps : true });
 const User = mongoose.model('User',userSchema);
 
